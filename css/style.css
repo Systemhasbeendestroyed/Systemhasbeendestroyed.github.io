@@ -1,0 +1,124 @@
+@media screen and (min-width: 576px) and (max-width: 768px) { 
+    .entry {
+        box-sizing: border-box;
+        padding: 10px;
+        height: 180px;
+    }
+    
+    .inner-entry {
+        background-color: #2ecf92;
+        height: 160px;
+        
+    }
+    .x {
+        background-image: url('../src/160x160x.png');
+    }
+    
+    .o {
+        background-image: url('../src/160x160o.png');
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px){ 
+    .entry {
+        box-sizing: border-box;
+        padding: 10px;
+        height: 240px;
+    }
+    
+    .inner-entry {
+        background-color: #2ecf92;
+        height: 220px;
+    }
+    .x {
+        background-image: url('../src/220x220x.png');
+    }
+    
+    .o {
+        background-image: url('../src/220x220o.png');
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) { 
+    .entry {
+        box-sizing: border-box;
+        padding: 10px;
+        height: 280px;
+
+    }
+    
+    .inner-entry {
+        background-color: #2ecf92;
+        height: 260px;
+    }
+    .x {
+        background-image: url('../src/300x260x.png');
+    }
+    
+    .o {
+        background-image: url('../src/300x260o.png');
+    }
+}
+
+@media screen and (min-width: 1200px) { 
+    .entry {
+        box-sizing: border-box;
+        padding: 10px;
+        height: 280px;
+
+    }
+    
+    .inner-entry {
+        background-color: #2ecf92;
+        height: 260px;
+    }
+    .x {
+        background-image: url('../src/360x260x.png');
+    }
+    
+    .o {
+        background-image: url('../src/360x260o.png');
+    }
+}
+
+
+
+body{
+    background-color: #181a1b;
+}
+
+
+
+.notification {
+    height: 50px;
+    box-shadow: 2px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 20px;
+    color: black;
+    line-height: 50px;
+    transform: translate(0, -475px);
+    display: none;
+}
+
+.winning {
+    background-color: rgb(0, 252, 176);
+}
+
+
+.losing {
+    background-color: rgb(252, 0, 0);
+}
+
+.restart {
+    height: 50px;
+    box-shadow: 2px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 20px;
+    color: black;
+    line-height: 50px;
+    background-color: rgb(175, 204, 13);
+    border-radius: 10px;
+    margin-top: 10px;
+}
